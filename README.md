@@ -7,7 +7,7 @@ La documentation officielle est disponible [ici](https://openpyxl.readthedocs.io
 ## I. Récupérer le code
 
 ```bash
-git clone https://github.com/surybang/medas_openpyxl.git
+git clone [https://github.com/surybang/medas_openpyxl.git](https://github.com/surybang/MEDAS-Tutorial-Openpyxl.git)
 cd quick_tutorial_openpyxl
 ```
 
