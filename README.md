@@ -1,27 +1,43 @@
-### I. Comment récupérer le code 
+# Les principales fonctions d'openpyxl
+
+La documentation officielle est disponible [ici](https://openpyxl.readthedocs.io/en/stable/tutorial.html).
+
+---
+
+## I. Récupérer le code
+
 ```bash
 git clone https://github.com/surybang/quick_tutorial_openpyxl.git
+cd quick_tutorial_openpyxl
 ```
 
-### II. Utilisez uv pour la configuration 
+> 💡 Vous pouvez aussi **forker** ce dépôt pour le garder sur votre propre GitHub et y revenir plus tard.
 
-Si uv n'est pas installé sur votre poste : 
+---
+
+## II. Configurer l'environnement
+
+Ce projet utilise [uv](https://github.com/astral-sh/uv) pour gérer les dépendances.
+
+Si `uv` n'est pas installé sur votre poste :
 
 ```bash
-pip install uv
+pip install uv # dans le Terminal
 ```
-Vous pouvez ensuite vous synchroniser avec la commande : 
+
+Synchronisez ensuite l'environnement virtuel :
 
 ```bash
 uv sync
 ```
-Et voilà ! vous êtes prêts à utiliser le notebook dans les meilleurs conditions 
 
-### III. Comment utiliser ce tutoriel
-1. Exécutez les cellules dans l'ordre
+---
 
-2. Vérifiez les modifications dans le fichier (*fichier.xlsx*)
+## III. Utiliser le tutoriel
 
-3. Expérimentez avec les paramètres
-
-4. Consultez la documentation pour approfondir
+1. Ouvrez `tutorial.ipynb` dans VS Code
+2. Exécutez la première cellule (`pip install -e .`) pour installer les dépendances
+3. Exécutez les cellules suivantes **dans l'ordre**
+3. Vérifiez les modifications dans les fichiers générés (`fichier.xlsx`, `rapport.xlsx`)
+4. Expérimentez avec les paramètres
+5. Consultez la [documentation](https://openpyxl.readthedocs.io) pour approfondir
